@@ -1,5 +1,31 @@
 body{
-    background: color F 5F 5F 5px;
+    background-color: #FFFFFF;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap');
 
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Kreon" , serif;
+
+}
+
+:root {
+    --primary: #D9D9D9;
+    --secondary: #B1B1B1;
+    --black: #000000;
+    --white: #ffffff;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: var(--primary); 
+    border-bottom-width: 1280px;
+    border-bottom-style: solid;
+    height: 5px;
 }
