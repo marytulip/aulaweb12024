@@ -11,6 +11,7 @@
 body{
     background-color: #FFFFFF;
 }
+
 main{
     height: calc(100vh - 8.5rem);
 }
@@ -37,7 +38,6 @@ header {
     border-bottom-style: solid;
     height: 6rem;
 }
-
 header img {
     padding: 0.0rem
 }
