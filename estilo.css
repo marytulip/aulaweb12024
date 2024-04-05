@@ -63,3 +63,39 @@ footer {
 footer img{
     margin: 0 0.05rem;
 }
+main img{
+    display: block;
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 50%; 
+}
+
+.Imagem1{
+    width: 33.1rem; 
+    height: 36.56rem; 
+}
+.Imagem2{
+    width: 29.29125rem; 
+    height: 36.5625rem; 
+}
+
+.Imagem1 {
+    margin-top: 50px; 
+    margin-left: 50px; 
+} 
+.Imagem2 {
+    margin-top: 50px; 
+    margin-left: 50px; 
+}
+
