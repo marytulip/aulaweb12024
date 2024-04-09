@@ -15,12 +15,7 @@ body{
 main{
     height: calc(100vh - 8.5rem);
 }
-main.index section{
-    display: flex;
-}
-main.index section img{
-    width: 50%;
-}
+
 
 :root {
     --primary: #D9D9D9;
@@ -63,29 +58,26 @@ footer {
 footer img{
     margin: 0 0.05rem;
 }
-main img{
-    display: block;
-    margin: auto;
-}
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.container {
-    display: flex;
+
+main section{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.container img {
-    width: 50%; 
+main section img.Imagem3{
+    padding-top: 2rem;
+    width: 80%;
 }
-
-.Imagem3{
-    width: 66.0625rem; 
-    height: 35.0625rem ; 
+main section aside{
+    background-color: #B1B1B1;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem;
 }
-.Imagem3 {
-    margin-top: 50px; 
-    margin-left: 50px; 
-} 
+main section aside img{
+    width: 59px;
+    height: 59px;
+}
